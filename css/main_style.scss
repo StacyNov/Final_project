@@ -1,0 +1,568 @@
+@import "https://fonts.googleapis.com/css?family=Asap:400,500&display=swap";
+
+
+@font-face {
+  font-family: 'AsapMedium';
+  src: url('../fonts/AsapMedium.eot');
+  src: url('../fonts/AsapMedium.eot') format('embedded-opentype'),
+  url('../fonts/AsapMedium.woff2') format('woff2'),
+  url('../fonts/AsapMedium.woff') format('woff'),
+  url('../fonts/AsapMedium.ttf') format('truetype'),
+  url('../fonts/AsapMedium.svg#AsapMedium') format('svg');
+}
+@font-face {
+  font-family: 'AsapRegular';
+  src: url('../fonts/AsapRegular.eot');
+  src: url('../fonts/AsapRegular.eot') format('embedded-opentype'),
+  url('../fonts/AsapRegular.woff2') format('woff2'),
+  url('../fonts/AsapRegular.woff') format('woff'),
+  url('../fonts/AsapRegular.ttf') format('truetype'),
+  url('../fonts/AsapRegular.svg#AsapRegular') format('svg');
+}
+@font-face {
+  font-family: 'AsapBold';
+  src: url('../fonts/AsapBold.eot');
+  src: url('../fonts/AsapBold.eot') format('embedded-opentype'),
+  url('../fonts/AsapBold.woff2') format('woff2'),
+  url('../fonts/AsapBold.woff') format('woff'),
+  url('../fonts/AsapBold.ttf') format('truetype'),
+  url('../fonts/AsapBold.svg#AsapBold') format('svg');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  height: 100%;
+
+  body {
+    background-color: #e1e1e1;
+
+    header {
+      background-image: url("../images/header_bg.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+
+      .logo {
+        img {
+          padding-top: 20px;
+        }
+      }
+
+      .bg-light {
+        background-color: transparent !important;
+      }
+
+      .navbar {
+        .navbar-nav {
+          li {
+            border: solid 0.063em transparent;
+            border-bottom-width: 3px;
+
+            &:hover {
+              background-color: #e1e1e1;
+              border-bottom-color: #4d4d4d;
+            }
+
+            a {
+              font-size: 0.9375em;
+              color: #4d4d4d;
+              text-transform: uppercase;
+
+              &:hover {
+                color: #e1e1e1;
+                text-transform: capitalize;
+              }
+            }
+          }
+        }
+      }
+
+      .col-md-6 {
+        h1 {
+          font-size: 5.625em;
+          color: #4d4d4d;
+          white-space: nowrap;
+          font-family: 'AsapMedium';
+          display: block;
+          @media screen and (max-width: 411px) {
+            font-size: 2.125em;
+          }
+          @media screen and (max-width: 1024px) {
+            font-size: 3.125em;
+          }
+        }
+
+        span {
+          font-size: 1.375em;
+          color: #9b9b9b;
+          font-family: 'Asap', sans-serif;
+          display: block;
+          @media screen and (max-width: 411px) {
+            font-size: 1em;
+          }
+          @media screen and (max-width: 1024px) {
+            font-size: 1.125em;
+          }
+        }
+
+        .btn {
+          width: 10em;
+          height: 3.125em;
+          text-align: center;
+          box-sizing: border-box;
+          font-size: 1em;
+          color: #4d4d4d;
+          background-color: #dfdfdf;
+          font-family: 'AsapMedium';
+          margin-top: 2.0625em;
+          margin-left: 1.25em;
+          border-radius: 0;
+          border-color: #4d4d4d;
+          @media screen and (max-width: 411px) {
+            width: 7em;
+            height: 2.125em;
+          }
+
+          &:hover {
+            color: #4d4d4d;
+            background-color: white;
+            border: transparent;
+            box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75);
+          }
+        }
+      }
+    }
+  }
+
+  .section_2 {
+    background-color: #fff;
+
+
+    h2 {
+      font-size: 2.875em;
+      color: #4d4d4d;
+      margin-bottom: 1.063em;
+      font-family: 'AsapBold';
+      @media screen and (max-width: 411px) {
+        font-size: 1.865em;
+        text-align: left;
+
+      }
+      @media screen and (max-width: 1024px) {
+        font-size: 2.125em;
+      }
+
+      &:before {
+        content: "";
+        background-color: #7a7a7a;
+        width: 3.750em;
+        height: 0.250em;
+        display: block;
+        margin-bottom: 1.313em;
+        @media screen and (max-width: 411px) {
+          background-color: transparent;
+        }
+      }
+
+      p {
+        font-size: 1em;
+        color: #4d4d4d;
+        margin-bottom: 2.500em;
+
+      }
+
+    }
+
+    img {
+      margin-top: 6.813em;
+      margin-bottom: 6.813em;
+    }
+
+    .btn_vc {
+      border: solid 0.063em #4d4d4d;
+      border-radius: 0;
+      font-family: 'AsapMedium';
+      font-size: 1em;
+
+      &:hover {
+        color: #4d4d4d;
+        background-color: #e1e1e1;
+        border: transparent;
+        box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75);
+      }
+    }
+
+  }
+
+  .section_3 {
+    background-color: #f6f6f6;
+    height: 100%;
+
+    h2 {
+      color: #717171;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.875em;
+      margin: auto;
+      margin-bottom: 2.500em;
+      font-family: 'AsapBold';
+      @media screen and (max-width: 411px) {
+        font-size: 1.865em;
+        text-align: left;
+
+      }
+      @media screen and (max-width: 1024px) {
+        font-size: 2.125em;
+      }
+
+      &:before {
+        content: "";
+        background-color: #717171;
+        width: 2.857em;
+        height: 0.250em;
+        display: block;
+        margin: auto;
+        margin-top: 2.500em;
+        @media screen and (max-width: 411px) {
+          background-color: transparent;
+        }
+      }
+
+      .col-2 {
+        img {
+          display: inline-block;
+          padding-bottom: 3.905em;
+          @media screen and (max-width: 411px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .section_4 {
+    background-color: white;
+    height: 100%;
+
+    h2 {
+      color: #717171;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.875em;
+      margin: auto;
+      margin-bottom: 2.500em;
+      font-family: 'AsapBold';
+      @media screen and (max-width: 411px) {
+        font-size: 1.865em;
+        text-align: left;
+
+      }
+      @media screen and (max-width: 1024px) {
+        font-size: 2.125em;
+      }
+
+      &:before {
+        content: "";
+        background-color: #717171;
+        width: 2.857em;
+        height: 0.250em;
+        display: block;
+        margin: auto;
+        margin-top: 2.500em;
+        @media screen and (max-width: 411px) {
+          background-color: transparent;
+        }
+      }
+    }
+
+    img {
+      margin-bottom: 7.875em;
+    }
+  }
+
+  .portfolio {
+    height: 100%;
+
+    h2 {
+      color: #717171;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.875em;
+      margin: auto;
+      margin-bottom: 2.500em;
+      font-family: 'AsapBold';
+      @media screen and (max-width: 411px) {
+        font-size: 1.865em;
+        text-align: left;
+
+      }
+      @media screen and (max-width: 1024px) {
+        font-size: 2.125em;
+      }
+
+      &:before {
+        content: "";
+        background-color: #717171;
+        width: 2.857em;
+        height: 0.250em;
+        display: block;
+        margin: auto;
+        margin-top: 2.500em;
+        @media screen and (max-width: 411px) {
+          background-color: transparent;
+        }
+      }
+    }
+
+    img {
+      margin-bottom: 1.875em;
+      transition: 1s;
+
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75);
+      }
+    }
+
+    .btn {
+      width: 10em;
+      height: 3.125em;
+      text-align: center;
+      box-sizing: border-box;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #4d4d4d;
+      background-color: #dfdfdf;
+      font-family: 'AsapMedium';
+      margin-top: 2.0625em;
+      margin: auto;
+      border-radius: 0;
+      border-color: #4d4d4d;
+      margin-bottom: 2.0625em;
+
+      &:hover {
+        color: #4d4d4d;
+        background-color: white;
+        border: transparent;
+        box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75);
+      }
+    }
+  }
+
+  .testimonials {
+    background-color: white;
+    height: 100%;
+
+    h2 {
+      color: #717171;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.875em;
+      margin: auto;
+      margin-bottom: 2.500em;
+      font-family: 'AsapBold';
+      @media screen and (max-width: 411px) {
+        font-size: 1.865em;
+        text-align: left;
+
+      }
+      @media screen and (max-width: 1024px) {
+        font-size: 2.125em;
+      }
+
+      &:before {
+        content: "";
+        background-color: #717171;
+        width: 2.857em;
+        height: 0.250em;
+        display: block;
+        margin: auto;
+        margin-top: 2.500em;
+        @media screen and (max-width: 411px) {
+          background-color: transparent;
+        }
+      }
+    }
+
+    .slider_c {
+      max-height: 100%;
+      border: solid 0.063em black;
+      padding: 5.000em;
+      margin-bottom: 7.813em;
+      @media screen and (max-width: 414px) {
+        padding: 1em;
+        border: none;
+      }
+
+      img{
+        @media screen and (max-width: 414px) {
+          height: 100%;
+          width: 60%;
+        }
+      }
+
+      h3 {
+        font-size: 1.875em;
+        text-transform: uppercase;
+        @media screen and (max-width: 414px) {
+          font-size: 0.9em;
+
+        }
+      }
+
+      span {
+        font-size: 0.750em;
+        padding: 0;
+        margin-top: -0.750em;
+        position: absolute;
+        @media screen and (max-width: 414px) {
+          font-size: 0.650em;
+          margin-top: -1.210em;
+        }
+      }
+
+      p {
+        margin-top: 1.375em;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #212121;
+        font-family: 'AsapRegular';
+        @media screen and (max-width: 414px) {
+          font-size: 0.5em;
+          margin-top: 0.58em;
+          
+        }
+      }
+    }
+
+    .line_test {
+      padding-bottom: 9.750em;
+    }
+  }
+
+  .footer {
+    height: 100%;
+    max-width: 100%;
+    min-height: 686px;
+    background-image: url('../images/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+
+      .for_footer {
+        border-bottom: solid 0.063em white;
+
+        h2 {
+          color: white;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 2.875em;
+          margin: auto;
+          margin-bottom: 2.500em;
+          font-family: 'AsapBold';
+          @media screen and (max-width: 411px) {
+            font-size: 1.865em;
+            text-align: left;
+
+          }
+          @media screen and (max-width: 1024px) {
+            font-size: 2.125em;
+          }
+
+          &:before {
+            content: "";
+            background-color: white;
+            width: 2.857em;
+            height: 0.250em;
+            display: block;
+            margin: auto;
+            margin-top: 2.500em;
+            @media screen and (max-width: 411px) {
+              background-color: transparent;
+            }
+          }
+        }
+
+        .form-control {
+          height: 3.625em;
+          border-radius: 0;
+        }
+
+        .form-control.text {
+          height: 13.000em;
+
+        }
+
+        .form-group {
+          margin-top: 1.875em;
+        }
+
+
+        .btn {
+          width: 7.813em;
+          height: 3.125em;
+          text-align: center;
+          box-sizing: border-box;
+          font-size: 1em;
+          text-transform: uppercase;
+          color: #4d4d4d;
+          background-color: #dfdfdf;
+          font-family: 'AsapMedium';
+          margin-top: 1.875em;
+          margin: auto;
+          border-radius: 0;
+          border-color: #4d4d4d;
+          margin-bottom: 7.500em;
+
+
+          &:hover {
+            color: #4d4d4d;
+            background-color: white;
+            border: transparent;
+            box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75);
+          }
+        }
+      }
+
+      .social {
+        margin-top: 1.563em;
+
+        a {
+          i {
+            font-size: 1.2em;
+            color: white;
+
+            &:hover {
+              color: #0985bf;
+              transform: scale(1.2);
+              box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75);
+            }
+
+          }
+
+          margin-left: 0.563em;
+        }
+      }
+
+      p {
+        font-size: 1em;
+        color: white;
+      }
+    }
+  }
+}
+
+
+
+
+

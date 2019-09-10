@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6689141c-19fb-46e9-b102-28d73db56a82" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="273" column="22" selection-start-line="273" selection-start-column="22" selection-end-line="273" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main_style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4862">
+              <caret line="167" column="31" lean-forward="true" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/owl.theme.default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/script.js" />
+        <option value="$USER_HOME$/Downloads/AsapRegular.css" />
+        <option value="$PROJECT_DIR$/css/owl.theme.default.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main_style.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-6" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Final project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final project" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final project" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6689141c-19fb-46e9-b102-28d73db56a82" name="Default Changelist" comment="" />
+      <created>1567777854586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567777854586</updated>
+      <workItem from="1567777856274" duration="1696000" />
+      <workItem from="1567780257109" duration="1655000" />
+      <workItem from="1567782301261" duration="1753000" />
+      <workItem from="1567785049065" duration="1626000" />
+      <workItem from="1567790999777" duration="1011000" />
+      <workItem from="1567792394163" duration="1780000" />
+      <workItem from="1567794298917" duration="2286000" />
+      <workItem from="1567798639278" duration="1619000" />
+      <workItem from="1567800586150" duration="346000" />
+      <workItem from="1567801018068" duration="1929000" />
+      <workItem from="1567844838758" duration="1722000" />
+      <workItem from="1567846662689" duration="1777000" />
+      <workItem from="1567848481724" duration="724000" />
+      <workItem from="1567849738342" duration="1783000" />
+      <workItem from="1567851686818" duration="1788000" />
+      <workItem from="1567868031512" duration="1744000" />
+      <workItem from="1567869891374" duration="639000" />
+      <workItem from="1567871566221" duration="1778000" />
+      <workItem from="1567875789721" duration="1776000" />
+      <workItem from="1567877809298" duration="1773000" />
+      <workItem from="1567879681783" duration="1778000" />
+      <workItem from="1567881760376" duration="578000" />
+      <workItem from="1567882517666" duration="1785000" />
+      <workItem from="1567884417532" duration="925000" />
+      <workItem from="1567940091186" duration="456000" />
+      <workItem from="1567941770415" duration="1627000" />
+      <workItem from="1567944178731" duration="1674000" />
+      <workItem from="1567947764539" duration="835000" />
+      <workItem from="1567950689208" duration="1813000" />
+      <workItem from="1567953302015" duration="1755000" />
+      <workItem from="1567955141882" duration="746000" />
+      <workItem from="1567957853321" duration="1785000" />
+      <workItem from="1567959734698" duration="2041000" />
+      <workItem from="1567961826655" duration="1777000" />
+      <workItem from="1567963645896" duration="1775000" />
+      <workItem from="1567965470316" duration="1779000" />
+      <workItem from="1567967372818" duration="1747000" />
+      <workItem from="1567969213151" duration="1429000" />
+      <workItem from="1567971077657" duration="1773000" />
+      <workItem from="1567972977938" duration="675000" />
+      <workItem from="1568019898276" duration="1171000" />
+      <workItem from="1568022485841" duration="1356000" />
+      <workItem from="1568024379121" duration="1292000" />
+      <workItem from="1568026428823" duration="1842000" />
+      <workItem from="1568028307019" duration="1785000" />
+      <workItem from="1568030185931" duration="1786000" />
+      <workItem from="1568032041376" duration="1574000" />
+      <workItem from="1568033924158" duration="1780000" />
+      <workItem from="1568035764928" duration="2096000" />
+      <workItem from="1568037968226" duration="1435000" />
+      <workItem from="1568041144144" duration="1736000" />
+      <workItem from="1568043082161" duration="1772000" />
+      <workItem from="1568044943039" duration="745000" />
+      <workItem from="1568045996700" duration="1526000" />
+      <workItem from="1568048056852" duration="1770000" />
+      <workItem from="1568049917359" duration="1794000" />
+      <workItem from="1568051762300" duration="1649000" />
+      <workItem from="1568108246682" duration="1708000" />
+      <workItem from="1568110022789" duration="1777000" />
+      <workItem from="1568111878219" duration="1372000" />
+      <workItem from="1568114031206" duration="684000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="92608000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3419062" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/AsapMedium.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="50" column="16" selection-start-line="49" selection-start-column="4" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.js" />
+    <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="92" column="26" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="92" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/AsapRegular.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/owl.theme.default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/AsapBold.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="273" column="22" selection-start-line="273" selection-start-column="22" selection-end-line="273" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4862">
+          <caret line="167" column="31" lean-forward="true" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

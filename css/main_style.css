@@ -1,0 +1,401 @@
+@import "https://fonts.googleapis.com/css?family=Asap:400,500&display=swap";
+@font-face {
+  font-family: 'AsapMedium';
+  src: url("../fonts/AsapMedium.eot");
+  src: url("../fonts/AsapMedium.eot") format("embedded-opentype"), url("../fonts/AsapMedium.woff2") format("woff2"), url("../fonts/AsapMedium.woff") format("woff"), url("../fonts/AsapMedium.ttf") format("truetype"), url("../fonts/AsapMedium.svg#AsapMedium") format("svg"); }
+@font-face {
+  font-family: 'AsapRegular';
+  src: url("../fonts/AsapRegular.eot");
+  src: url("../fonts/AsapRegular.eot") format("embedded-opentype"), url("../fonts/AsapRegular.woff2") format("woff2"), url("../fonts/AsapRegular.woff") format("woff"), url("../fonts/AsapRegular.ttf") format("truetype"), url("../fonts/AsapRegular.svg#AsapRegular") format("svg"); }
+@font-face {
+  font-family: 'AsapBold';
+  src: url("../fonts/AsapBold.eot");
+  src: url("../fonts/AsapBold.eot") format("embedded-opentype"), url("../fonts/AsapBold.woff2") format("woff2"), url("../fonts/AsapBold.woff") format("woff"), url("../fonts/AsapBold.ttf") format("truetype"), url("../fonts/AsapBold.svg#AsapBold") format("svg"); }
+* {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased; }
+
+html {
+  height: 100%; }
+  html body {
+    background-color: #e1e1e1; }
+    html body header {
+      background-image: url("../images/header_bg.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+      html body header .logo img {
+        padding-top: 20px; }
+      html body header .bg-light {
+        background-color: transparent !important; }
+      html body header .navbar .navbar-nav li {
+        border: solid 0.063em transparent;
+        border-bottom-width: 3px; }
+        html body header .navbar .navbar-nav li:hover {
+          background-color: #e1e1e1;
+          border-bottom-color: #4d4d4d; }
+        html body header .navbar .navbar-nav li a {
+          font-size: 0.9375em;
+          color: #4d4d4d;
+          text-transform: uppercase; }
+          html body header .navbar .navbar-nav li a:hover {
+            color: #e1e1e1;
+            text-transform: capitalize; }
+      html body header .col-md-6 h1 {
+        font-size: 5.625em;
+        color: #4d4d4d;
+        white-space: nowrap;
+        font-family: 'AsapMedium';
+        display: block; }
+        @media screen and (max-width: 411px) {
+          html body header .col-md-6 h1 {
+            font-size: 2.125em; } }
+        @media screen and (max-width: 1024px) {
+          html body header .col-md-6 h1 {
+            font-size: 3.125em; } }
+      html body header .col-md-6 span {
+        font-size: 1.375em;
+        color: #9b9b9b;
+        font-family: 'Asap', sans-serif;
+        display: block; }
+        @media screen and (max-width: 411px) {
+          html body header .col-md-6 span {
+            font-size: 1em; } }
+        @media screen and (max-width: 1024px) {
+          html body header .col-md-6 span {
+            font-size: 1.125em; } }
+      html body header .col-md-6 .btn {
+        width: 10em;
+        height: 3.125em;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 1em;
+        color: #4d4d4d;
+        background-color: #dfdfdf;
+        font-family: 'AsapMedium';
+        margin-top: 2.0625em;
+        margin-left: 1.25em;
+        border-radius: 0;
+        border-color: #4d4d4d; }
+        @media screen and (max-width: 411px) {
+          html body header .col-md-6 .btn {
+            width: 7em;
+            height: 2.125em; } }
+        html body header .col-md-6 .btn:hover {
+          color: #4d4d4d;
+          background-color: white;
+          border: transparent;
+          box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75); }
+  html .section_2 {
+    background-color: #fff; }
+    html .section_2 h2 {
+      font-size: 2.875em;
+      color: #4d4d4d;
+      margin-bottom: 1.063em;
+      font-family: 'AsapBold'; }
+      @media screen and (max-width: 411px) {
+        html .section_2 h2 {
+          font-size: 1.865em;
+          text-align: left; } }
+      @media screen and (max-width: 1024px) {
+        html .section_2 h2 {
+          font-size: 2.125em; } }
+      html .section_2 h2:before {
+        content: "";
+        background-color: #7a7a7a;
+        width: 3.750em;
+        height: 0.250em;
+        display: block;
+        margin-bottom: 1.313em; }
+        @media screen and (max-width: 411px) {
+          html .section_2 h2:before {
+            background-color: transparent; } }
+      html .section_2 h2 p {
+        font-size: 1em;
+        color: #4d4d4d;
+        margin-bottom: 2.500em; }
+    html .section_2 img {
+      margin-top: 6.813em;
+      margin-bottom: 6.813em; }
+    html .section_2 .btn_vc {
+      border: solid 0.063em #4d4d4d;
+      border-radius: 0;
+      font-family: 'AsapMedium';
+      font-size: 1em; }
+      html .section_2 .btn_vc:hover {
+        color: #4d4d4d;
+        background-color: #e1e1e1;
+        border: transparent;
+        box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75); }
+  html .section_3 {
+    background-color: #f6f6f6;
+    height: 100%; }
+    html .section_3 h2 {
+      color: #717171;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.875em;
+      margin: auto;
+      margin-bottom: 2.500em;
+      font-family: 'AsapBold'; }
+      @media screen and (max-width: 411px) {
+        html .section_3 h2 {
+          font-size: 1.865em;
+          text-align: left; } }
+      @media screen and (max-width: 1024px) {
+        html .section_3 h2 {
+          font-size: 2.125em; } }
+      html .section_3 h2:before {
+        content: "";
+        background-color: #717171;
+        width: 2.857em;
+        height: 0.250em;
+        display: block;
+        margin: auto;
+        margin-top: 2.500em; }
+        @media screen and (max-width: 411px) {
+          html .section_3 h2:before {
+            background-color: transparent; } }
+      html .section_3 h2 .col-2 img {
+        display: inline-block;
+        padding-bottom: 3.905em; }
+        @media screen and (max-width: 411px) {
+          html .section_3 h2 .col-2 img {
+            display: flex;
+            justify-content: center;
+            align-items: center; } }
+  html .section_4 {
+    background-color: white;
+    height: 100%; }
+    html .section_4 h2 {
+      color: #717171;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.875em;
+      margin: auto;
+      margin-bottom: 2.500em;
+      font-family: 'AsapBold'; }
+      @media screen and (max-width: 411px) {
+        html .section_4 h2 {
+          font-size: 1.865em;
+          text-align: left; } }
+      @media screen and (max-width: 1024px) {
+        html .section_4 h2 {
+          font-size: 2.125em; } }
+      html .section_4 h2:before {
+        content: "";
+        background-color: #717171;
+        width: 2.857em;
+        height: 0.250em;
+        display: block;
+        margin: auto;
+        margin-top: 2.500em; }
+        @media screen and (max-width: 411px) {
+          html .section_4 h2:before {
+            background-color: transparent; } }
+    html .section_4 img {
+      margin-bottom: 7.875em; }
+  html .portfolio {
+    height: 100%; }
+    html .portfolio h2 {
+      color: #717171;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.875em;
+      margin: auto;
+      margin-bottom: 2.500em;
+      font-family: 'AsapBold'; }
+      @media screen and (max-width: 411px) {
+        html .portfolio h2 {
+          font-size: 1.865em;
+          text-align: left; } }
+      @media screen and (max-width: 1024px) {
+        html .portfolio h2 {
+          font-size: 2.125em; } }
+      html .portfolio h2:before {
+        content: "";
+        background-color: #717171;
+        width: 2.857em;
+        height: 0.250em;
+        display: block;
+        margin: auto;
+        margin-top: 2.500em; }
+        @media screen and (max-width: 411px) {
+          html .portfolio h2:before {
+            background-color: transparent; } }
+    html .portfolio img {
+      margin-bottom: 1.875em;
+      transition: 1s; }
+      html .portfolio img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75); }
+    html .portfolio .btn {
+      width: 10em;
+      height: 3.125em;
+      text-align: center;
+      box-sizing: border-box;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #4d4d4d;
+      background-color: #dfdfdf;
+      font-family: 'AsapMedium';
+      margin-top: 2.0625em;
+      margin: auto;
+      border-radius: 0;
+      border-color: #4d4d4d;
+      margin-bottom: 2.0625em; }
+      html .portfolio .btn:hover {
+        color: #4d4d4d;
+        background-color: white;
+        border: transparent;
+        box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75); }
+  html .testimonials {
+    background-color: white;
+    height: 100%; }
+    html .testimonials h2 {
+      color: #717171;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.875em;
+      margin: auto;
+      margin-bottom: 2.500em;
+      font-family: 'AsapBold'; }
+      @media screen and (max-width: 411px) {
+        html .testimonials h2 {
+          font-size: 1.865em;
+          text-align: left; } }
+      @media screen and (max-width: 1024px) {
+        html .testimonials h2 {
+          font-size: 2.125em; } }
+      html .testimonials h2:before {
+        content: "";
+        background-color: #717171;
+        width: 2.857em;
+        height: 0.250em;
+        display: block;
+        margin: auto;
+        margin-top: 2.500em; }
+        @media screen and (max-width: 411px) {
+          html .testimonials h2:before {
+            background-color: transparent; } }
+    html .testimonials .slider_c {
+      max-height: 100%;
+      border: solid 0.063em black;
+      padding: 5.000em;
+      margin-bottom: 7.813em; }
+      @media screen and (max-width: 414px) {
+        html .testimonials .slider_c {
+          padding: 1em;
+          border: none; } }
+      @media screen and (max-width: 414px) {
+        html .testimonials .slider_c img {
+          height: 100%;
+          width: 60%; } }
+      html .testimonials .slider_c h3 {
+        font-size: 1.875em;
+        text-transform: uppercase; }
+        @media screen and (max-width: 414px) {
+          html .testimonials .slider_c h3 {
+            font-size: 0.9em; } }
+      html .testimonials .slider_c span {
+        font-size: 0.750em;
+        padding: 0;
+        margin-top: -0.750em;
+        position: absolute; }
+        @media screen and (max-width: 414px) {
+          html .testimonials .slider_c span {
+            font-size: 0.650em;
+            margin-top: -1.210em; } }
+      html .testimonials .slider_c p {
+        margin-top: 1.375em;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #212121;
+        font-family: 'AsapRegular'; }
+        @media screen and (max-width: 414px) {
+          html .testimonials .slider_c p {
+            font-size: 0.5em;
+            margin-top: 0.58em; } }
+    html .testimonials .line_test {
+      padding-bottom: 9.750em; }
+  html .footer {
+    height: 100%;
+    max-width: 100%;
+    min-height: 686px;
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    html .footer .container .for_footer {
+      border-bottom: solid 0.063em white; }
+      html .footer .container .for_footer h2 {
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.875em;
+        margin: auto;
+        margin-bottom: 2.500em;
+        font-family: 'AsapBold'; }
+        @media screen and (max-width: 411px) {
+          html .footer .container .for_footer h2 {
+            font-size: 1.865em;
+            text-align: left; } }
+        @media screen and (max-width: 1024px) {
+          html .footer .container .for_footer h2 {
+            font-size: 2.125em; } }
+        html .footer .container .for_footer h2:before {
+          content: "";
+          background-color: white;
+          width: 2.857em;
+          height: 0.250em;
+          display: block;
+          margin: auto;
+          margin-top: 2.500em; }
+          @media screen and (max-width: 411px) {
+            html .footer .container .for_footer h2:before {
+              background-color: transparent; } }
+      html .footer .container .for_footer .form-control {
+        height: 3.625em;
+        border-radius: 0; }
+      html .footer .container .for_footer .form-control.text {
+        height: 13.000em; }
+      html .footer .container .for_footer .form-group {
+        margin-top: 1.875em; }
+      html .footer .container .for_footer .btn {
+        width: 7.813em;
+        height: 3.125em;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #4d4d4d;
+        background-color: #dfdfdf;
+        font-family: 'AsapMedium';
+        margin-top: 1.875em;
+        margin: auto;
+        border-radius: 0;
+        border-color: #4d4d4d;
+        margin-bottom: 7.500em; }
+        html .footer .container .for_footer .btn:hover {
+          color: #4d4d4d;
+          background-color: white;
+          border: transparent;
+          box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75); }
+    html .footer .container .social {
+      margin-top: 1.563em; }
+      html .footer .container .social a {
+        margin-left: 0.563em; }
+        html .footer .container .social a i {
+          font-size: 1.2em;
+          color: white; }
+          html .footer .container .social a i:hover {
+            color: #0985bf;
+            transform: scale(1.2);
+            box-shadow: 0 0.625em 0.313em 0 rgba(0, 0, 0, 0.75); }
+    html .footer .container p {
+      font-size: 1em;
+      color: white; }
+
+/*# sourceMappingURL=main_style.css.map */
